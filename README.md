@@ -236,7 +236,7 @@ Now that we have received some coins on address,  we are going to spent from thi
 
 This image shows that the last recorded transaction spends funds from a multi-signature address 2 of 3, on the day  22-02.
 
-<img width="1219" alt="Screenshot 2024-02-22 at 22 00 39" src="https://github.com/javierzawda/core/assets/152255763/8edf57dc-360e-4406-8af1-cf11946ae408">
+<img width="1219" alt="Screenshot 2024-02-22 at 22 00 39" src="https://github.com/javierzawda/zawda/blob/main/307149839-8edf57dc-360e-4406-8af1-cf11946ae408.png">
 
 We use Zawda software for that, implemented on psbt.js program.
 
