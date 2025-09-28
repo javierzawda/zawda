@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+
+  /* Zawda Brand Colors */
+  --color-primary: #d4a574;
+  --color-primary-dark: #b8935f;
+  --color-primary-light: #e8c49a;
+
+  /* Background Colors */
+  --color-background: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-surface-secondary: #e9ecef;
+
+  /* Text Colors */
+  --color-foreground: #212529;
+  --color-muted-foreground: #6c757d;
+  --color-secondary-foreground: #495057;
+
+  /* Status Colors */
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+  --color-info: #17a2b8;
+
+  /* Border & Input */
+  --color-border: #dee2e6;
+  --color-input: #f8f9fa;
+  --color-ring: #d4a574;
+
+  /* Radius */
+  --radius: 0.5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #d4a574 0%, #b8935f 50%, #e8c49a 100%);
+}
+
+.password-strength-weak {
+  color: #dc3545;
+}
+
+.password-strength-medium {
+  color: #ffc107;
+}
+
+.password-strength-strong {
+  color: #28a745;
+}
